@@ -12,6 +12,12 @@ body {
   color: #1f2937;
 }
 
+.section-body {
+  min-height: 600px;
+  /* max-width: 95%; */
+  margin: auto;
+}
+
 
 /* NAVIGATION */
 .navbar {
@@ -102,4 +108,41 @@ body {
   font-size: 1rem;
   color: #f8fafc;
   margin-top: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 480px) {
+  
+  .footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  .contact-cards {
+    gap: 0px;
+  }
+
+  .contact-card {
+    padding: 10px;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .contact-card i {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .contact-card p {
+    font-size: 1rem;
+  }
+
 }

@@ -1,0 +1,36 @@
+.topics-bar-section {
+  margin: 30px 20px;
+  width: auto;
+}
+
+.topics-bar-section h1{
+  color: #3396ff;
+}
+
+/* .topics-bar {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 5px 5px 50px rgba(0,0,0,0.1);
+  border-radius: 20px;
+}
+
+.topics-bar:hover{
+  cursor: pointer;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+} */
+
+.topics-bar-section ol {
+  margin: 20px;
+}
+
+.topics-bar-section a {
+  color: black;
+  text-decoration: none;
+}
+
+.topics-bar-section a:hover {
+  color: #3396ff;
+  text-decoration: underline;
+}

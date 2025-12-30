@@ -48,7 +48,8 @@
 
 .card i {
   font-size: 2rem;
-  color: #2563eb;
+  /* color: #2563eb; */
+  color: #3396ff;
   margin-bottom: 15px;
 }
 
@@ -118,10 +119,11 @@
 }
 
 
-.btn {
+.btn-youtube {
   display: inline-block;
   padding: 15px 35px;
-  background: #2563eb;
+  /* background: #2563eb; */
+  background: #3396ff;
   color: white;
   text-decoration: none;
   border-radius: 10px;
@@ -129,18 +131,41 @@
   transition: all 0.3s ease;
 }
 
-.btn:hover {
-  background: #1e40af;
+.btn-youtube:hover {
+  /* background: #1e40af; */
+  background: #3396ff;
+  transform: translateY(-3px);
+}
+
+.btn-explore {
+  margin-top: 50px;
+  width: 200px;
+  display: inline-block;
+  padding: 15px 35px;
+  /* background: #2563eb; */
+  background: #3396ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-explore:hover {
+  /* background: #1e40af; */
+  background: #3396ff;
   transform: translateY(-3px);
 }
 
 
 
+
 /* BUTTON */
-.btn {
+.btn-youtube {
   display: inline-block;
   padding: 15px 35px;
-  background: #2563eb;
+  /* background: #2563eb; */
+  background: #3396ff;
   color: white;
   text-decoration: none;
   border-radius: 10px;
@@ -148,8 +173,9 @@
   transition: all 0.3s ease;
 }
 
-.btn:hover {
-  background: #1e40af;
+.btn-youtube:hover {
+  /* background: #1e40af; */
+  background: #3396ff;
   transform: translateY(-3px);
 }
 
@@ -157,124 +183,13 @@
 
 /* RESPONSIVE */
 @media (max-width: 1024px) {
-  .about-cards, .contact-cards {
-    flex-direction: column;
-    align-items: center;
-  }
-  .hero-section {
-    padding: 20px 20px;
-  }
-  .content-row {
-    flex-direction: column;
-    gap: 20px;
-  }
+  
 }
 
 @media (max-width: 768px) {
-  .banner-section {
-    height: 300px;
-  }
-  .profile-img {
-    height: 200px;
-  }
-  .hero-section {
-    padding: 15px 15px;
-  }
-  .hero-content {
-    padding: 12px;
-  }
-  .hero-content h1 {
-    font-size: 2rem;
-  }
-  .hero-content p {
-    font-size: 1rem;
-  }
-  .content-row {
-    gap: 15px;
-  }
-  .card {
-    padding: 12px;
-  }
-  .footer {
-    padding: 15px 15px;
-  }
-  .contact-section h2 {
-    font-size: 1.8rem;
-  }
-  .contact-cards {
-    gap: 8px;
-  }
-  .contact-card {
-    padding: 6px;
-  }
-  .contact-card i {
-    font-size: 1.2rem;
-    margin-bottom: 3px;
-  }
-  .contact-card p {
-    font-size: 0.8rem;
-    margin-top: 3px;
-  }
-  .banner-text h1 {
-    font-size: 2.2rem;
-  }
-  .banner-text p {
-    font-size: 1rem;
-  }
-  .btn {
-    padding: 10px 20px;
-  }
+  
 }
 
 @media (max-width: 480px) {
-  .banner-section {
-    height: 250px;
-  }
-  .profile-img {
-    height: 150px;
-  }
-  .hero-section {
-    padding: 10px 10px;
-  }
-  .hero-content {
-    padding: 8px;
-  }
-  .hero-content h1 {
-    font-size: 1.5rem;
-  }
-  .hero-content p {
-    font-size: 0.9rem;
-  }
-  .content-row {
-    gap: 10px;
-  }
-  .card {
-    padding: 10px;
-  }
-  .contact-section {
-    padding: 10px 10px;
-  }
-  .contact-section h2 {
-    font-size: 1.5rem;
-  }
-  .contact-cards {
-    gap: 5px;
-  }
-  .contact-card {
-    padding: 4px;
-  }
-  .contact-card i {
-    font-size: 1rem;
-    margin-bottom: 2px;
-  }
-  .contact-card p {
-    font-size: 0.7rem;
-    margin-top: 2px;
-  }
-  .banner-text h1 {
-    font-size: 1.8rem;
-  }
-  .banner-text p {
-    font-size: 0.95rem;
-  }
+  
 }
