@@ -1,0 +1,54 @@
+1️⃣ Dark Blue / Navy (Tech & Trust)
+
+#0A192F   → Deep Navy
+#0B1F33   → Dark Steel Blue
+#101820   → Blue-Black (Apple-like)
+
+2️⃣ Dark Charcoal / Soft Black (Minimal & Premium)
+#121212   → Material Dark
+#181818   → Soft Charcoal
+#1C1C1C   → Dark Gray
+
+3️⃣ Dark Slate / Cool Gray (Modern UI)
+#1F2933   → Dark Slate
+#2A2E35   → Cool Dark Gray
+#2C333A   → Dashboard-style dark
+
+4️⃣ Dark Green / Teal (Subtle Accent)
+#0F2A24   → Dark Teal
+#102A1E   → Deep Green
+#003B36   → Dark Cyan
+
+
+✅ Primary Background
+#000000
+
+✅ Secondary Background / Sections
+#121212  OR  #0A192F
+
+✅ Cards / Containers
+#181818  OR  #1F2933
+
+✅ Text
+#FFFFFF  (Primary)
+#B3B3B3  (Secondary)
+
+---------------------------------------------------------------------------------
+
+Header -> background: #0D0D0D;
+Body -> background: #0E121B;
+Section -> background: #27272A;
+Cards -> background: #F9FAFB33;
+button -> background: #fccc59;
+button-hover -> background: #d1963f;
+footer -> background: #111827;
+
+-----------Fixes---------------------
+
+Header -> background: #0D0D0D;
+Body -> background: #0E121B;
+Section -> background: #151A24;
+Cards -> background: #1E2533;
+button -> background: #fccc59;
+button-hover -> background: #d1963f;
+footer -> background: #111827;

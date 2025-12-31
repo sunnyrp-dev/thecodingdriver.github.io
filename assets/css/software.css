@@ -1,0 +1,24 @@
+.software-section {
+  padding: 30px 40px 60px;
+  background-color: #151A24;
+  width: 90%;
+  margin: auto;
+}
+
+.software-section h1{
+  color: white;
+  text-align: center;
+}
+
+.software-section a {
+  text-decoration: none;
+}
+
+.software-section ol {
+  margin: 20px;
+}
+
+.software-section li {
+  color: white;
+}
+
