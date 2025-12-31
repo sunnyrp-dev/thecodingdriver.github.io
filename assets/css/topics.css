@@ -2,18 +2,22 @@
 .hero {
   text-align: center;
   padding: 80px 20px 60px;
-  background: linear-gradient(135deg, #eaf3ff, #ffffff);
+  /* background: linear-gradient(135deg, #eaf3ff, #ffffff); */
+  /* background: #27272A; */
+  background: #151A24;
 }
 
 .hero h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  color: white;
 }
 
 .hero p {
   max-width: 800px;
   margin: auto;
-  color: #555;
+  /* color: #555; */
+  color: white;
 }
 
 /* ================= TOPICS ================= */
@@ -30,7 +34,7 @@
 }
 
 .topic-card {
-  background: #ffffff;
+  background: #1E2533;
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.05);
@@ -45,23 +49,26 @@
   margin-bottom: 10px;
   /* color: #0a58ca; */
   color: #3396ff;
+  color: white;
 }
 
 .topic-card p {
   font-size: 0.95rem;
-  color: #555;
+  /* color: #555; */
+  color: white;
   margin-bottom: 15px;
 }
 
 .topic-card a {
   text-decoration: none;
   /* color: #0a58ca; */
-  color: #3396ff;
+  /* color: #3396ff; */
+  color: white;
   font-weight: 600;
 }
 
 /* ================= LEARNING PATH ================= */
-.learning-path {
+/* .learning-path {
   background: #ffffff;
   padding: 50px 20px;
   text-align: center;
@@ -79,22 +86,26 @@
 
 .learning-path li {
   margin: 10px 0;
-}
+} */
 
 /* ================= CTA ================= */
 .cta {
   text-align: center;
   padding: 60px 20px;
-  background: #3396ff;
+  /* background: #3396ff; */
+
   color: white;
+  /* color: black; */
 }
 
 .cta a {
   display: inline-block;
   margin-top: 15px;
   padding: 12px 25px;
-  background: white;
-  color: #3396ff;
+  /* background: white; */
+  background: #fccc59;
+  /* color: #3396ff; */
+  color: black;
   text-decoration: none;
   border-radius: 25px;
   font-weight: 600;

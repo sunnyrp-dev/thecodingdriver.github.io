@@ -3,7 +3,7 @@
   display: flex;
   /* text-align: center; */
   padding: 20px 20px 60px;
-  background: linear-gradient(135deg, #eaf3ff, #ffffff);
+  
   
   /* background-image: url('/assets/images/banner.png'); */
 }
@@ -46,6 +46,8 @@ button {
   top: 50%;
   transform: translateY(-50%);
   background: rgba(0,0,0,0.5);
+
+  
   color: white;
   border: none;
   padding: 10px;
@@ -56,21 +58,34 @@ button {
 .next { right: 10px; }
 
 .about-me {
-  background: #ffffff;
+  /* background: #ffffff; */
+  background: #151A24;
   border-radius: 20px;
   padding: 40px;
   margin: 30px 10px;
-  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+  /* box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.1); */
 }
 
 .about-me h2 {
   /* color: #0a58ca; */
-  color: #3396ff;
+  /* color: #3396ff; */
+  color: white;
+}
+
+
+.about-me p {
+  /* color: #0a58ca; */
+  color: white;
+}
+
+.about-me li {
+  /* color: #0a58ca; */
+  color: white;
 }
 
 .about-me:hover {
   cursor: pointer;
-  box-shadow: 20px 20px 30px rgba(0,0,0,0.1);
+  /* box-shadow: 20px 20px 30px rgba(255, 255, 255, 0.1); */
 }
 
 /* ================= CTA ================= */

@@ -1,10 +1,10 @@
 /* Global Styles */
 * {
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 body {
@@ -14,19 +14,21 @@ body {
 
 .section-body {
   min-height: 600px;
-  /* max-width: 95%; */
   margin: auto;
+  background-color: #0E121B;
 }
 
 
 /* NAVIGATION */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 0px 40px;
   /* background: #2563eb; */
-  background: #3396ff;
+  /* background: #3396ff; */
+  /* background: #000000; */
+  background: #0D0D0D;
   
   color: white;
   position: sticky;
@@ -43,16 +45,19 @@ body {
   list-style: none;
   display: flex;
   gap: 25px;
+  margin-left: 70px;
 }
 
 .nav-links li a {
+  text-decoration: none;
   color: white;
-  font-weight: 600;
+  /* font-weight: 600; */
   transition: color 0.3s ease;
 }
 
 .nav-links li a:hover {
-  color: #f0f4ff;
+  text-decoration: solid;
+  font-weight: 600;
 }
 
 
@@ -62,7 +67,7 @@ body {
   margin: 0;
   padding: 25px 20px;
   text-align: center;
-  background: #1f2937;
+  background: #111827;
   color: #f8fafc;
 }
 
@@ -96,7 +101,7 @@ body {
 
 .contact-card i {
   font-size: 2rem;
-  color: #2563eb;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
